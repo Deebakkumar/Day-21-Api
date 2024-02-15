@@ -1,0 +1,44 @@
+{
+    "title": "Create a grouping of cards with the JSON.",
+    "body": "An exerecise to create a grouping of cards with the JSON provided or use a custom URL. The JSON should be used to create a grouping of cards. Each card should have an image, title, body, and link(s).",
+    "deck_heading": "Dynamically Generated Cards",
+    "cards": [
+      {
+        "image": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2018/03/russian-blue.jpg",
+        "title": "Russian Blue",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "links": [
+          {
+            "text": "Learn More",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "image": "https://www.thesprucepets.com/thmb/2HF5pGwbA1_74qlubXRyEM_xxlk=/2121x0/filters:no_upscale():strip_icc()/GettyImages-1319774380-c3da91f9259a47e0966007f8e10690ba.jpg",
+        "title": "British Shorthair",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "links": [
+          {
+            "text": "Get Yours!",
+            "href": "#"
+          },
+          {
+            "text": "Adopt Now",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "image": "https://www.thesprucepets.com/thmb/MeUpscjE124Ay9E6IHKrkUOTvLw=/2124x0/filters:no_upscale():strip_icc()/GettyImages-117905012-a2c9c5a2fc6944e6bca97d2fb0b4beec.jpg",
+        "title": "Birman",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "links": [
+          {
+            "text": "History of the Breed",
+            "href": "#"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Variables for maintainability + Decreased repetition */
+  :root {
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --card-border: 0.8em solid #219770;
+    --border-radius: 0.5em;
+    --full-width: 100%;
+  }
+  
+  /* Elements  */
+  body {
+    font-family: var(--font-family);
+    line-height: 3.75rem;
+    width: var(--full-width);
+    max-width: fit-content;
+    height: 100vh;
+    margin: auto;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    padding: 1.5em;
+  }
+  
+  p {
+    width: var(--full-width);
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  em {
+    font-weight: 700;
+    font-size: 48px;
+    color: red;
+  }
+  
+  /* Classes */
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
+    margin: auto;
+    max-width: 1400px;
+    height: max-content;
+  }
+  
+  .card {
+    max-width: fit-content;
+    border: var(--card-border);
+    border-radius: var(--border-radius);
+    padding: 1.5em;
+  }
+  
+  .card img {
+    width: var(--full-width);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    padding: 0.5em;
+    line-height: 130%;
+  }
+  
+  .card-info span {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  /* Media Queries  */
+  @media only screen and (min-width: 992px) {
+    main {
+      align-items: flex-start;
+    }
+  
+    .card-wrapper {
+      flex-direction: row;
+    }
+  }
